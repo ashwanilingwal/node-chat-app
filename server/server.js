@@ -28,7 +28,7 @@ io.on('connection', (socket) => {
     //   createdAt: new Date().getTime()
     // });
   },function(callback){
-    callback(0);
+    callback();
   });
 
   socket.on('createLocationMessage',(coords)=>{
